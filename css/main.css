@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: #ddd;
+	margin: 0px;
+	color: rgb(130 130 130);
+}
+
+.spacer1{
+	height: 1px;
+	width: auto;
+}
+
+.spacer5{
+	height: 5px;
+	width: auto;
+}
+
+.spacer12{
+	height: 12px;
+	width: 100%;
+}
+
+.spacer25{
+	height: 25px;
+	width: auto;
+}
+
+.tm-container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.tm-header{
+	background: #fff;
+	margin: auto;
+}
+
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.tm-logo{
+	float: left;
+	margin: 25px 20px 20px 25px;
+}
+
+.tm-nav{
+	float: right;
+	margin-top: 30px;
+	font-size: 1.3em;
+	color: #802d9c;
+}
+
+.tm-nav ul{
+	margin-bottom: 0px;
+}
+
+.tm-nav ul li{
+	display: inline-block;
+}
+
+.tm-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #802d9c;
+	line-height: 60px;
+}
+
+.tm-nav ul li a:hover{
+	color: #3e99ff;
+	background-color: rgb(250, 250, 250);
+}
+
+/* 2nd part code here */
+
+p{
+	margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 10px;
+}
+
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	color: #b6b6b6
+}
+
+h2{
+	font-size: 2.2em;
+	text-align: center;
+	color: #b6b6b6
+}
+
+h3{
+	font-size: 2em;
+	text-align: center;
+	color: #17a47b
+}
+
+h4{
+	font-size: 1.5em;
+	text-align: center;
+	color: #17a47b
+}
+
+ul,ol{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+	border: 1px, #802d9c:
+}
+
+.tm-content{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	max-width: 67%;
+	float: left;
+}
+
+.tm-sidebar{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	max-width: 33%;
+	float: right;
+	width: 33%;
+}
+
+.tm-sidebar div{
+	background: #fff;
+	border-top-right-radius: 20px;
+	padding: 10px;
+}
+
+.tm-article{
+	background: #fff;
+	padding: 30px;
+}
+
+.clearfix::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.tm-footer{
+	background: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.round-corner-top-left{
+	border-radius: 3px;
+	border-top-left-radius: 20px;
+}
+
+.stats-block{
+	background-color: rgb(240, 240, 240);
+	border: 2px solid #802d9c;
+	border-radius: 20px;
+	width: auto;
+	padding: 5px;
+	float: center;
+}
+
+.grad{
+	height: 25px;
+	width: 100%;
+	background: linear-gradient(#fff, #ddd);
+	margin: 0px;
+}
+
+.find-a-bum-form{
+	background-color: rgb(240, 240, 240);
+	border: 2px solid #802d9c;
+	border-radius: 20px;
+	padding: 20px 28px;
+}
